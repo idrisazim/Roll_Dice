@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
-  print("flutter ogreniyorum");
+
+  for (int i = 0; i < 10; ++i) {
+    print("flutter ogreniyorum loop");
+  }
 }
 
 class MyApp extends StatelessWidget {
@@ -93,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'You have pushed the button this many times eh!:',
             ),
             Text(
               '$_counter',
