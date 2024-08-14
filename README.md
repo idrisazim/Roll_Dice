@@ -1,5 +1,5 @@
-# I am learning Flutter
+# Simple roll dice page
 
-A new Flutter project.
+As my Flutter startup journey. This is my first try.
 Roll Dice app.
 
