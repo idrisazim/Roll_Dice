@@ -13,7 +13,7 @@ class DiceRoller extends StatefulWidget {
   }
 }
 
-class _DiceRollerState extends State<DiceRoller> {
+class _DiceRollerState extends State<DiceRoller> { // The '_' before class name states that the class is private to this dart file only
   var currentDiceRoll = 2;
 
   void rollDice() {
